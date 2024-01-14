@@ -9,7 +9,7 @@ from time import sleep
 origin_x = 1137.5
 origin_y = 539.5
 r = 420
-smoothness = 6 # how many points around the circle to move the cursor to. higher = smoother but takes longer, so might run out of time and fail
+smoothness = 6 # move cursor at n degrees interval around the circle. higher = smoother but takes longer, so might run out of time and fail
 
 # generate coordinates to move to
 x_coordinates = []
